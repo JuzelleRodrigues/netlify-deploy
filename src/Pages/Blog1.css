@@ -1,0 +1,39 @@
+/* Blog Page Container */
+.blog-page {
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Blog Header Section */
+  .blog-header {
+    margin-bottom: 40px;
+  }
+  
+  .blog-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .author-details {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .blog-image {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .blog-content {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    margin-top: 20px;
+  }
+  
+  

@@ -1,0 +1,78 @@
+/*add blogheader*/
+
+
+
+
+.about-me-container {
+  padding: 50px 20px;
+  background-color: #f8f9fa;
+}
+
+.about-me-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-me-title {
+  font-size: 32px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-me-description {
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: rgba(60, 60, 67, 0.85);
+  margin-bottom: 30px;
+}
+
+.about-me-button {
+  width: 100%;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  border-radius: 30px;
+}
+
+.work-experience-card, .education-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.work-experience-card h5, .education-card h5 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.work-experience-card span, .education-card span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6c757d;
+}
+
+.work-experience-card p, .education-card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(60, 60, 67, 0.85);
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(60, 60, 67, 0.85);
+}
+
+@media (max-width: 767px) {
+  .about-me-card, .work-experience-card, .education-card {
+    width: 100%;
+  }
+}

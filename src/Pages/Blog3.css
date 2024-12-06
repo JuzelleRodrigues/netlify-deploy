@@ -1,0 +1,119 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Gilroy:wght@400;700&family=Inter:wght@400;500;700&display=swap'); 
+
+.camera-setup-content {
+   display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-direction: column; /* Stack content vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  text-align: center; /* Center-align text within the content */
+  padding: 0px; /* Optional padding */
+  background-color: #fff; /* Optional background color */
+}
+
+
+
+.blog-image-container {
+  display: flex; /* Activates flexbox */
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically (optional) */
+  height: 500px; /* Set a custom height */
+  width: 20%; /* Set a custom width, 20% of the parent container */
+  max-width: 1200px; /* Optional: Limits the max width to avoid it getting too wide */
+  margin: 0 auto; /* Centers the container within the parent */
+  transition: transform 0.3s ease; /* Animation for the transform */
+}
+
+.blog-image-container:hover {
+  transform: scale(0.3); /* Scales the image down to 30% of its original size */
+}
+
+.blog-image-container img {
+  max-width: 100%; /* Ensures image scales responsively */
+  height: auto; /* Keeps the image aspect ratio intact */
+  transition: transform 0.3s ease; /* Ensure the image inside the container also scales smoothly */
+}
+
+  
+  @media screen and (max-width: 768px) {
+    .blog-content {
+      width: 95%; /* Full width for smaller screens */
+      height: 300px; /* Adjust height for mobile devices */
+    }
+  }
+
+  .blog-image {
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .blog-content {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .blog-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .blog-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .blog-link {
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .blog-link:hover {
+    text-decoration: underline;
+  }
+  
+
+
+
+  .section.text-section {
+    padding: 20px 360px; /* Adds padding to the top/bottom and sides */
+    font-family: 'Inter', sans-serif; /* Ensure the font is consistent */
+    color: #333; /* Text color */
+    font-size: 1rem; /* Adjust font size */
+    line-height: 1.6; /* Line height for better readability */
+    background-color: #fff; /* Optional background color */
+    border-radius: 8px; /* Optional rounded corners */
+    margin: 20px 0; /* Optional margin around the section */
+  }
+  
+  .section.text-section h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+  }
+  
+  .section.text-section h3 {
+    color: #222; /* Dark color for headings */
+    font-size: 1.2rem; /* Adjust heading font size */
+    margin-bottom: 10px; /* Space below headings */
+  }
+  
+  .section.text-section p {
+    margin-bottom: 15px; /* Space between paragraphs */
+    font-size: 1rem;
+    color: #555; /* Slightly lighter color for paragraph text */
+  }
+  
+  .section.text-section h3 {
+    font-size: 1.4rem; /* Slightly larger font for 'Technical Commentary' */
+    margin-top: 20px; /* Space before h3 */
+    font-weight: bold;
+  }
+  
